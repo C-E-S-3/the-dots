@@ -1,0 +1,5 @@
+pane	dev	3	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects/ansible	1	zsh	:nvim create_rg.yml
+pane	dotfiles	1	1	:*	0	samanthas-air.lan	:/Users/charlie/.config	1	zsh	:
+window	dev	3	:zsh	1	:*	d6d3,130x31,0,0,24	:
+window	dotfiles	1	:zsh	1	:*	dad4,130x33,0,0,25	:
+state	dotfiles	dev

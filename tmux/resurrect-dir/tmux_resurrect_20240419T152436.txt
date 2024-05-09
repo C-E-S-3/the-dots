@@ -1,0 +1,7 @@
+pane	dev	3	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects	1	zsh	:
+pane	dotfiles	1	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/.config/nvim/lua/config	1	nvim	:nvim lazy.lua
+pane	notes	1	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects/notes	1	nvim	:nvim notes.md
+window	dev	3	:zsh	1	:*	62d5,130x37,0,0,16	:
+window	dotfiles	1	:nvim	1	:*	ad42,130x31,0,0,5	:
+window	notes	1	:nvim	1	:*	c540,130x37,0,0,3	:
+state	dotfiles	dev

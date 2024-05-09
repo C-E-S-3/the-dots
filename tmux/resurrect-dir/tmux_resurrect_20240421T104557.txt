@@ -1,0 +1,5 @@
+pane	dev	3	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects	1	zsh	:
+pane	notes	1	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects/notes	1	zsh	:
+window	dev	3	:zsh	1	:*	5e75,142x25,0,0,16	:
+window	notes	1	:zsh	1	:*	c540,130x37,0,0,3	:
+state	dev	

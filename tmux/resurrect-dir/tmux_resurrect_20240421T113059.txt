@@ -1,0 +1,5 @@
+pane	dev	3	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects	1	zsh	:
+pane	dotfiles	1	1	:*	0	samanthas-air.lan	:/Users/charlie/.config	1	zsh	:
+window	dev	3	:[tmux]	1	:*	6195,110x27,0,0,16	:
+window	dotfiles	1	:zsh	1	:*	e7cf,119x29,0,0,20	:
+state	dotfiles	

@@ -1,0 +1,6 @@
+pane	dev	3	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects/ansible	1	Python	:nvim create_rg.yml
+/opt/homebrew/Cellar/python@3.12/3.12.3/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python /Users/charlie/projects/ansible/.venv/bin/pip list --outdated
+pane	dotfiles	1	1	:*	0	samanthas-air.lan	:/Users/charlie/.config/zsh	1	zsh	:
+window	dev	3	:Python	1	:*	d6d3,130x31,0,0,24	:
+window	dotfiles	1	:zsh	1	:*	ddb4,143x34,0,0,25	:
+state	dev	dotfiles

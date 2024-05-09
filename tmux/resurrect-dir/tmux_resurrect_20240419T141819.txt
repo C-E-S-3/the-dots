@@ -1,0 +1,13 @@
+pane	dev	1	0	:	0	samanthas-air.jccc.wifi	:/Users/charlie/.bash_history	1	zsh	:
+pane	dev	2	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie	1	zsh	:
+pane	dev	3	0	:-	0	samanthas-air.jccc.wifi	:/Users/charlie	1	zsh	:
+pane	dot	1	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/.config	1	zsh	:
+pane	dotfiles	1	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie	1	zsh	:
+pane	notes	1	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects/notes	1	nvim	:nvim notes.md
+window	dev	1	:zsh	0	:	b541,130x33,0,0,4	:
+window	dev	2	:zsh	1	:*	5ad4,130x33,0,0,15	:
+window	dev	3	:zsh	0	:-	5ad5,130x33,0,0,16	:
+window	dot	1	:zsh	1	:*	5ad7,130x33,0,0,18	:
+window	dotfiles	1	:zsh	1	:*	b542,130x33,0,0,5	:
+window	notes	1	:nvim	1	:*	c540,130x37,0,0,3	:
+state	notes	dot

@@ -1,0 +1,5 @@
+pane	dev	3	1	:*	0	samanthas-air.jccc.wifi	:/Users/charlie/projects	1	zsh	:
+pane	dotfiles	1	1	:*	0	samanthas-air.lan	:/Users/charlie/dotfiles	1	zsh	:
+window	dev	3	:zsh	1	:*	ddb1,143x34,0,0,22	:
+window	dotfiles	1	:zsh	1	:*	ddb2,143x34,0,0,23	:
+state	dev	dotfiles
