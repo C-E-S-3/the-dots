@@ -1,0 +1,250 @@
+# Tokyo Night Color Theme for ls/dircolors
+# Based on the Tokyo Night color palette
+# https://github.com/enkia/tokyo-night-vscode-theme
+
+# Color codes:
+# Foreground: 38;2;R;G;B or 38;5;N (256 colors)
+# Background: 48;2;R;G;B or 48;5;N (256 colors)
+# Attributes: 00=none 01=bold 04=underscore 05=blink 07=reverse 08=concealed
+
+# Tokyo Night Palette:
+# Background: #1a1b26
+# Foreground: #c0caf5
+# Blue: #7aa2f7
+# Cyan: #7dcfff
+# Green: #9ece6a
+# Magenta: #bb9af7
+# Red: #f7768e
+# Yellow: #e0af68
+# Orange: #ff9e64
+
+# Basic file types
+NORMAL 00                    # normal file
+FILE 00                      # regular file
+RESET 0                      # reset to normal
+DIR 01;38;2;122;162;247      # directory (Tokyo Night blue - bold)
+LINK 01;38;2;125;207;255     # symbolic link (Tokyo Night cyan - bold)
+MULTIHARDLINK 00             # regular file with more than one link
+FIFO 38;2;255;158;100        # pipe (Tokyo Night orange)
+SOCK 01;38;2;187;154;247     # socket (Tokyo Night magenta - bold)
+DOOR 01;38;2;187;154;247     # door (Tokyo Night magenta - bold)
+BLK 38;2;122;162;247;48;2;30;30;46   # block device (blue on dark bg)
+CHR 38;2;224;175;104;48;2;30;30;46   # character device (yellow on dark bg)
+ORPHAN 01;38;2;247;118;142   # orphaned symlink (Tokyo Night red - bold)
+MISSING 01;38;2;247;118;142  # missing file (Tokyo Night red - bold)
+SETUID 01;38;2;26;27;38;48;2;247;118;142  # file with setuid bit (red bg)
+SETGID 01;38;2;26;27;38;48;2;224;175;104  # file with setgid bit (yellow bg)
+CAPABILITY 01;38;2;26;27;38;48;2;247;118;142  # file with capability
+STICKY_OTHER_WRITABLE 01;38;2;26;27;38;48;2;158;206;106  # dir with sticky bit and world-writable
+OTHER_WRITABLE 01;38;2;122;162;247;48;2;30;30;46  # dir that is world-writable
+STICKY 01;38;2;26;27;38;48;2;122;162;247  # dir with sticky bit
+
+# Executables (Tokyo Night green)
+EXEC 01;38;2;158;206;106
+
+# Archives (Tokyo Night magenta)
+.tar 38;2;187;154;247
+.tgz 38;2;187;154;247
+.arc 38;2;187;154;247
+.arj 38;2;187;154;247
+.taz 38;2;187;154;247
+.lha 38;2;187;154;247
+.lz4 38;2;187;154;247
+.lzh 38;2;187;154;247
+.lzma 38;2;187;154;247
+.tlz 38;2;187;154;247
+.txz 38;2;187;154;247
+.tzo 38;2;187;154;247
+.t7z 38;2;187;154;247
+.zip 38;2;187;154;247
+.z 38;2;187;154;247
+.dz 38;2;187;154;247
+.gz 38;2;187;154;247
+.lrz 38;2;187;154;247
+.lz 38;2;187;154;247
+.lzo 38;2;187;154;247
+.xz 38;2;187;154;247
+.zst 38;2;187;154;247
+.tzst 38;2;187;154;247
+.bz2 38;2;187;154;247
+.bz 38;2;187;154;247
+.tbz 38;2;187;154;247
+.tbz2 38;2;187;154;247
+.tz 38;2;187;154;247
+.deb 38;2;187;154;247
+.rpm 38;2;187;154;247
+.jar 38;2;187;154;247
+.war 38;2;187;154;247
+.ear 38;2;187;154;247
+.sar 38;2;187;154;247
+.rar 38;2;187;154;247
+.alz 38;2;187;154;247
+.ace 38;2;187;154;247
+.zoo 38;2;187;154;247
+.cpio 38;2;187;154;247
+.7z 38;2;187;154;247
+.rz 38;2;187;154;247
+.cab 38;2;187;154;247
+.wim 38;2;187;154;247
+.swm 38;2;187;154;247
+.dwm 38;2;187;154;247
+.esd 38;2;187;154;247
+
+# Images (Tokyo Night cyan)
+.jpg 38;2;125;207;255
+.jpeg 38;2;125;207;255
+.mjpg 38;2;125;207;255
+.mjpeg 38;2;125;207;255
+.gif 38;2;125;207;255
+.bmp 38;2;125;207;255
+.pbm 38;2;125;207;255
+.pgm 38;2;125;207;255
+.ppm 38;2;125;207;255
+.tga 38;2;125;207;255
+.xbm 38;2;125;207;255
+.xpm 38;2;125;207;255
+.tif 38;2;125;207;255
+.tiff 38;2;125;207;255
+.png 38;2;125;207;255
+.svg 38;2;125;207;255
+.svgz 38;2;125;207;255
+.mng 38;2;125;207;255
+.pcx 38;2;125;207;255
+.webp 38;2;125;207;255
+.ico 38;2;125;207;255
+
+# Video (Tokyo Night orange)
+.mov 38;2;255;158;100
+.mpg 38;2;255;158;100
+.mpeg 38;2;255;158;100
+.m2v 38;2;255;158;100
+.mkv 38;2;255;158;100
+.webm 38;2;255;158;100
+.ogm 38;2;255;158;100
+.mp4 38;2;255;158;100
+.m4v 38;2;255;158;100
+.mp4v 38;2;255;158;100
+.vob 38;2;255;158;100
+.qt 38;2;255;158;100
+.nuv 38;2;255;158;100
+.wmv 38;2;255;158;100
+.asf 38;2;255;158;100
+.rm 38;2;255;158;100
+.rmvb 38;2;255;158;100
+.flc 38;2;255;158;100
+.avi 38;2;255;158;100
+.fli 38;2;255;158;100
+.flv 38;2;255;158;100
+.gl 38;2;255;158;100
+.dl 38;2;255;158;100
+.xcf 38;2;255;158;100
+.xwd 38;2;255;158;100
+.yuv 38;2;255;158;100
+
+# Audio (Tokyo Night yellow)
+.aac 38;2;224;175;104
+.au 38;2;224;175;104
+.flac 38;2;224;175;104
+.m4a 38;2;224;175;104
+.mid 38;2;224;175;104
+.midi 38;2;224;175;104
+.mka 38;2;224;175;104
+.mp3 38;2;224;175;104
+.mpc 38;2;224;175;104
+.ogg 38;2;224;175;104
+.ra 38;2;224;175;104
+.wav 38;2;224;175;104
+.oga 38;2;224;175;104
+.opus 38;2;224;175;104
+.spx 38;2;224;175;104
+.xspf 38;2;224;175;104
+
+# Documents (Tokyo Night blue)
+.pdf 38;2;122;162;247
+.doc 38;2;122;162;247
+.docx 38;2;122;162;247
+.ppt 38;2;122;162;247
+.pptx 38;2;122;162;247
+.xls 38;2;122;162;247
+.xlsx 38;2;122;162;247
+.odt 38;2;122;162;247
+.ods 38;2;122;162;247
+.odp 38;2;122;162;247
+
+# Config files (Tokyo Night cyan)
+.conf 38;2;125;207;255
+.config 38;2;125;207;255
+.cfg 38;2;125;207;255
+.ini 38;2;125;207;255
+.yaml 38;2;125;207;255
+.yml 38;2;125;207;255
+.json 38;2;125;207;255
+.toml 38;2;125;207;255
+.xml 38;2;125;207;255
+
+# Source code (Tokyo Night green)
+.c 38;2;158;206;106
+.cpp 38;2;158;206;106
+.cc 38;2;158;206;106
+.h 38;2;158;206;106
+.hpp 38;2;158;206;106
+.py 38;2;158;206;106
+.js 38;2;158;206;106
+.ts 38;2;158;206;106
+.jsx 38;2;158;206;106
+.tsx 38;2;158;206;106
+.go 38;2;158;206;106
+.rs 38;2;158;206;106
+.java 38;2;158;206;106
+.sh 38;2;158;206;106
+.bash 38;2;158;206;106
+.zsh 38;2;158;206;106
+.fish 38;2;158;206;106
+.php 38;2;158;206;106
+.rb 38;2;158;206;106
+.pl 38;2;158;206;106
+.lua 38;2;158;206;106
+.vim 38;2;158;206;106
+.el 38;2;158;206;106
+
+# Markup (Tokyo Night yellow)
+.md 38;2;224;175;104
+.markdown 38;2;224;175;104
+.rst 38;2;224;175;104
+.tex 38;2;224;175;104
+.html 38;2;224;175;104
+.htm 38;2;224;175;104
+.css 38;2;224;175;104
+.scss 38;2;224;175;104
+.sass 38;2;224;175;104
+
+# Special files (Tokyo Night red)
+*README 01;38;2;247;118;142
+*LICENSE 01;38;2;247;118;142
+*COPYING 01;38;2;247;118;142
+*INSTALL 01;38;2;247;118;142
+*COPYRIGHT 01;38;2;247;118;142
+*AUTHORS 01;38;2;247;118;142
+*HISTORY 01;38;2;247;118;142
+*CONTRIBUTORS 01;38;2;247;118;142
+*PATENTS 01;38;2;247;118;142
+*VERSION 01;38;2;247;118;142
+*NOTICE 01;38;2;247;118;142
+*CHANGES 01;38;2;247;118;142
+.log 38;2;247;118;142
+
+# Build files (dimmed)
+*Makefile 38;2;150;150;150
+*makefile 38;2;150;150;150
+.make 38;2;150;150;150
+.cmake 38;2;150;150;150
+*CMakeLists.txt 38;2;150;150;150
+
+# Temp/backup files (dimmed red)
+*~ 38;2;150;100;100
+*# 38;2;150;100;100
+.bak 38;2;150;100;100
+.old 38;2;150;100;100
+.orig 38;2;150;100;100
+.swp 38;2;150;100;100
+.tmp 38;2;150;100;100
